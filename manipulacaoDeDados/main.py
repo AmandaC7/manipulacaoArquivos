@@ -4,7 +4,7 @@ def readFile(filename):
     infile.close()
     wordList = content.split()
     print(wordList)
-    return len(wordList), len(content)
+    print("A quantidade de palavras é:",len(wordList), "A quantidade de caracteres é:", len(content))
 
 
-n_words, n_chars = readFile('Documento.txt')
+leitura = readFile('Documento.txt')
